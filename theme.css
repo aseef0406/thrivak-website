@@ -1,0 +1,26 @@
+.header-actions { align-items: center; display: flex; gap: 12px; }
+.theme-toggle { align-items: center; background: #eef1f6; border: 0; border-radius: 20px; color: #536072; cursor: pointer; display: flex; font-size: 16px; height: 38px; justify-content: center; padding: 0; transition: .2s ease; width: 38px; }
+.theme-toggle:hover { background: #dfe5ef; transform: translateY(-1px); }
+.theme-toggle .moon { display: none; }
+
+body.dark-mode { --paper: #0c1220; --ink: #f6f8ff; --muted: #a9b3c4; background: #0c1220; }
+.dark-mode header { background: #0c1220; }
+.dark-mode nav a { color: #b8c1d1; }
+.dark-mode .header-button { background: #f6f8ff; color: #0c1220; }
+.dark-mode .brand { color: #f6f8ff; }
+.dark-mode .theme-toggle { background: #1d293b; color: #ffcf4c; }
+.dark-mode .theme-toggle .sun { display: none; }
+.dark-mode .theme-toggle .moon { display: inline; }
+.dark-mode .friends span, .dark-mode .friends b { border-color: #0c1220; }
+.dark-mode .phone, .dark-mode .steps article { background: #162033; border-color: #283650; box-shadow: 0 20px 44px #00000055; }
+.dark-mode .phone-head, .dark-mode .rival { border-color: #2b3850; }
+.dark-mode .phone-head, .dark-mode .rival p b, .dark-mode .rival strong, .dark-mode .phone h2, .dark-mode .steps h3 { color: #f6f8ff; }
+.dark-mode .progress { background: #2b3850; }
+.dark-mode .outline { border-color: #34445e; color: #f6f8ff; }
+.dark-mode .intro, .dark-mode .steps { background: #0c1220; }
+.dark-mode .challenges { background: #111b2d; }
+.dark-mode .challenges .section-heading { color: #f6f8ff; }
+.dark-mode .ticker { background: #05080f; }
+.dark-mode footer { background: #0c1220; border-top: 1px solid #202c40; }
+
+@media (max-width: 800px) { .header-actions { gap: 8px; } .theme-toggle { height: 34px; width: 34px; } }

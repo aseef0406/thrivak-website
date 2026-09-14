@@ -1,0 +1,10 @@
+.brand-logo {
+  height: 52px;
+  margin-right: 6px;
+  object-fit: contain;
+  width: 52px;
+}
+
+@media (max-width: 800px) {
+  .brand-logo { height: 44px; width: 44px; }
+}
